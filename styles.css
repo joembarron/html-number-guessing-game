@@ -3,9 +3,16 @@ body {
   font-family: "Helvetica Neue", sans-serif;
   font-weight: 300;
   text-align: center;
+  font-family: 'Prompt', sans-serif;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
-h1 {
-  font-weight: 400
+input{
+  margin: 1rem;
 }
 
+
+h4 {
+  margin-top: 1rem;
+}
