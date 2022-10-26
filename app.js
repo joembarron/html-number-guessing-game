@@ -31,9 +31,8 @@ function handleGuess(userGuess) {
 
 function endGame(){ 
     document.getElementsByTagName('body')[0].removeChild(form)
-    document.getElementsByTagName('body')[0].removeChild(heading)
+    heading.innerHTML = `Random number: ${number}`
 
-    guessFeedback.innerHTML = `Random number: ${number}`
 }
 
 
